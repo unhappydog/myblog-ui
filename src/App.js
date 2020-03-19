@@ -6,18 +6,13 @@ import Page from './components/page'
 import {
     Router,
     Route,
-    Link
+    // Link
 } from 'react-router'
 import "./App.css"
 
 class App extends Component {
     render() {
         return (
-            // <div className="App">
-            //     <Header></Header>
-            //     <Navigator></Navigator>
-            //     <Content></Content>
-            // </div>
             <Router className="App">
                 <Header></Header>
                 <Navigator></Navigator>
